@@ -3,7 +3,16 @@ Hands-on Z3 SAT/SMT repo with tiny, well-commented `.smt2` problems: proposition
 
 ---
 
-## Install (Ubuntu)
+## Install Z3 (Ubuntu)
+
+Z3 is a high-performance, open-source Satisfiability Modulo Theories (SMT) solver developed by Microsoft Research.
+
 ```bash
 sudo apt update
 sudo apt install -y z3
+```
+
+### Verify
+```
+z3 --version
+```
