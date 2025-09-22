@@ -12,7 +12,8 @@ sudo apt update
 sudo apt install -y z3
 ```
 
-### Verify
+### Verify Installation
 ```
 z3 --version
 ```
+
