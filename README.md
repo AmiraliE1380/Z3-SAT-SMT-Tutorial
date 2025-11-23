@@ -77,3 +77,5 @@ File: `02-prop-unsat.smt2`
 (check-sat)
 ; Expect: unsat
 ```
+
+The SMT solver will just output `unsat`.
