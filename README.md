@@ -59,4 +59,9 @@ sat
     true)
 )
 ```
+In other words `A ==> false, `B, C ==> true`.
+
+### 2) Propositional Logic — UNSAT
+
+File: `02-prop-unsat.smt2`
 
