@@ -59,9 +59,21 @@ sat
     true)
 )
 ```
-In other words `A ==> false, `B, C ==> true`.
+In other words `A ==> false`, `B, C ==> true`.
 
 ### 2) Propositional Logic — UNSAT
 
 File: `02-prop-unsat.smt2`
 
+```
+; Propositional UNSAT example
+(set-logic QF_UF)
+
+(declare-const P Bool)
+
+(assert P)
+(assert (not P))
+
+(check-sat)
+; Expect: unsat
+```
