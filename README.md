@@ -45,3 +45,18 @@ File: `01-prop-sat.smt2`
 (get-model)
 ```
 
+Satisfying assignment:
+
+```
+amiralie1380@DESKTOP-HIUHQ8A:~/z3_tutorial$ z3 01-prop-sat.smt2
+sat
+(model
+  (define-fun A () Bool
+    false)
+  (define-fun B () Bool
+    true)
+  (define-fun C () Bool
+    true)
+)
+```
+
